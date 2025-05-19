@@ -2,7 +2,7 @@ import pandas as pd
 from client import RestClient
 
 # You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip
-client = RestClient("reed.daw@angi.com", "53f8deab44d30c99")
+client = RestClient("user_name", "pw")
 
 post_data = dict()
 # Simple way to set a task
